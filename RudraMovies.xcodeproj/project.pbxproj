@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		808E7F8A260F647800F5525E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7F89260F647800F5525E /* AppDelegate.swift */; };
+		808E7F8C260F647800F5525E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7F8B260F647800F5525E /* SceneDelegate.swift */; };
+		808E7F8E260F647800F5525E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7F8D260F647800F5525E /* ViewController.swift */; };
+		808E7F91260F647800F5525E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808E7F8F260F647800F5525E /* Main.storyboard */; };
+		808E7F93260F647C00F5525E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808E7F92260F647C00F5525E /* Assets.xcassets */; };
+		808E7F96260F647C00F5525E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808E7F94260F647C00F5525E /* LaunchScreen.storyboard */; };
+		808E7FA1260F647C00F5525E /* RudraMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FA0260F647C00F5525E /* RudraMoviesTests.swift */; };
+		808E7FAC260F647C00F5525E /* RudraMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FAB260F647C00F5525E /* RudraMoviesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808E7F9D260F647C00F5525E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808E7F7E260F647800F5525E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808E7F85260F647800F5525E;
+			remoteInfo = RudraMovies;
+		};
+		808E7FA8260F647C00F5525E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808E7F7E260F647800F5525E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808E7F85260F647800F5525E;
+			remoteInfo = RudraMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		808E7F86260F647800F5525E /* RudraMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RudraMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		808E7F89260F647800F5525E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		808E7F8B260F647800F5525E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		808E7F8D260F647800F5525E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		808E7F90260F647800F5525E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		808E7F92260F647C00F5525E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		808E7F95260F647C00F5525E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		808E7F97260F647C00F5525E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808E7F9C260F647C00F5525E /* RudraMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RudraMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808E7FA0260F647C00F5525E /* RudraMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudraMoviesTests.swift; sourceTree = "<group>"; };
+		808E7FA2260F647C00F5525E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808E7FA7260F647C00F5525E /* RudraMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RudraMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808E7FAB260F647C00F5525E /* RudraMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudraMoviesUITests.swift; sourceTree = "<group>"; };
+		808E7FAD260F647C00F5525E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		808E7F83260F647800F5525E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E7F99260F647C00F5525E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E7FA4260F647C00F5525E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808E7F7D260F647800F5525E = {
+			isa = PBXGroup;
+			children = (
+				808E7F88260F647800F5525E /* RudraMovies */,
+				808E7F9F260F647C00F5525E /* RudraMoviesTests */,
+				808E7FAA260F647C00F5525E /* RudraMoviesUITests */,
+				808E7F87260F647800F5525E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		808E7F87260F647800F5525E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				808E7F86260F647800F5525E /* RudraMovies.app */,
+				808E7F9C260F647C00F5525E /* RudraMoviesTests.xctest */,
+				808E7FA7260F647C00F5525E /* RudraMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		808E7F88260F647800F5525E /* RudraMovies */ = {
+			isa = PBXGroup;
+			children = (
+				808E7F89260F647800F5525E /* AppDelegate.swift */,
+				808E7F8B260F647800F5525E /* SceneDelegate.swift */,
+				808E7F8D260F647800F5525E /* ViewController.swift */,
+				808E7F8F260F647800F5525E /* Main.storyboard */,
+				808E7F92260F647C00F5525E /* Assets.xcassets */,
+				808E7F94260F647C00F5525E /* LaunchScreen.storyboard */,
+				808E7F97260F647C00F5525E /* Info.plist */,
+			);
+			path = RudraMovies;
+			sourceTree = "<group>";
+		};
+		808E7F9F260F647C00F5525E /* RudraMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				808E7FA0260F647C00F5525E /* RudraMoviesTests.swift */,
+				808E7FA2260F647C00F5525E /* Info.plist */,
+			);
+			path = RudraMoviesTests;
+			sourceTree = "<group>";
+		};
+		808E7FAA260F647C00F5525E /* RudraMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				808E7FAB260F647C00F5525E /* RudraMoviesUITests.swift */,
+				808E7FAD260F647C00F5525E /* Info.plist */,
+			);
+			path = RudraMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		808E7F85260F647800F5525E /* RudraMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808E7FB0260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMovies" */;
+			buildPhases = (
+				808E7F82260F647800F5525E /* Sources */,
+				808E7F83260F647800F5525E /* Frameworks */,
+				808E7F84260F647800F5525E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RudraMovies;
+			productName = RudraMovies;
+			productReference = 808E7F86260F647800F5525E /* RudraMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		808E7F9B260F647C00F5525E /* RudraMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808E7FB3260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMoviesTests" */;
+			buildPhases = (
+				808E7F98260F647C00F5525E /* Sources */,
+				808E7F99260F647C00F5525E /* Frameworks */,
+				808E7F9A260F647C00F5525E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808E7F9E260F647C00F5525E /* PBXTargetDependency */,
+			);
+			name = RudraMoviesTests;
+			productName = RudraMoviesTests;
+			productReference = 808E7F9C260F647C00F5525E /* RudraMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		808E7FA6260F647C00F5525E /* RudraMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808E7FB6260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMoviesUITests" */;
+			buildPhases = (
+				808E7FA3260F647C00F5525E /* Sources */,
+				808E7FA4260F647C00F5525E /* Frameworks */,
+				808E7FA5260F647C00F5525E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808E7FA9260F647C00F5525E /* PBXTargetDependency */,
+			);
+			name = RudraMoviesUITests;
+			productName = RudraMoviesUITests;
+			productReference = 808E7FA7260F647C00F5525E /* RudraMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		808E7F7E260F647800F5525E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					808E7F85260F647800F5525E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					808E7F9B260F647C00F5525E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 808E7F85260F647800F5525E;
+					};
+					808E7FA6260F647C00F5525E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 808E7F85260F647800F5525E;
+					};
+				};
+			};
+			buildConfigurationList = 808E7F81260F647800F5525E /* Build configuration list for PBXProject "RudraMovies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808E7F7D260F647800F5525E;
+			productRefGroup = 808E7F87260F647800F5525E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808E7F85260F647800F5525E /* RudraMovies */,
+				808E7F9B260F647C00F5525E /* RudraMoviesTests */,
+				808E7FA6260F647C00F5525E /* RudraMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808E7F84260F647800F5525E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808E7F96260F647C00F5525E /* LaunchScreen.storyboard in Resources */,
+				808E7F93260F647C00F5525E /* Assets.xcassets in Resources */,
+				808E7F91260F647800F5525E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E7F9A260F647C00F5525E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E7FA5260F647C00F5525E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808E7F82260F647800F5525E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808E7F8E260F647800F5525E /* ViewController.swift in Sources */,
+				808E7F8A260F647800F5525E /* AppDelegate.swift in Sources */,
+				808E7F8C260F647800F5525E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E7F98260F647C00F5525E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808E7FA1260F647C00F5525E /* RudraMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E7FA3260F647C00F5525E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808E7FAC260F647C00F5525E /* RudraMoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808E7F9E260F647C00F5525E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808E7F85260F647800F5525E /* RudraMovies */;
+			targetProxy = 808E7F9D260F647C00F5525E /* PBXContainerItemProxy */;
+		};
+		808E7FA9260F647C00F5525E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808E7F85260F647800F5525E /* RudraMovies */;
+			targetProxy = 808E7FA8260F647C00F5525E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		808E7F8F260F647800F5525E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808E7F90260F647800F5525E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		808E7F94260F647C00F5525E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808E7F95260F647C00F5525E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		808E7FAE260F647C00F5525E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		808E7FAF260F647C00F5525E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808E7FB1260F647C00F5525E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG483J9M78;
+				INFOPLIST_FILE = RudraMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RudraSolutions.RudraMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		808E7FB2260F647C00F5525E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG483J9M78;
+				INFOPLIST_FILE = RudraMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RudraSolutions.RudraMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		808E7FB4260F647C00F5525E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG483J9M78;
+				INFOPLIST_FILE = RudraMoviesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RudraSolutions.RudraMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RudraMovies.app/RudraMovies";
+			};
+			name = Debug;
+		};
+		808E7FB5260F647C00F5525E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG483J9M78;
+				INFOPLIST_FILE = RudraMoviesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RudraSolutions.RudraMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RudraMovies.app/RudraMovies";
+			};
+			name = Release;
+		};
+		808E7FB7260F647C00F5525E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG483J9M78;
+				INFOPLIST_FILE = RudraMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RudraSolutions.RudraMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RudraMovies;
+			};
+			name = Debug;
+		};
+		808E7FB8260F647C00F5525E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG483J9M78;
+				INFOPLIST_FILE = RudraMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RudraSolutions.RudraMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RudraMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		808E7F81260F647800F5525E /* Build configuration list for PBXProject "RudraMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808E7FAE260F647C00F5525E /* Debug */,
+				808E7FAF260F647C00F5525E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808E7FB0260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808E7FB1260F647C00F5525E /* Debug */,
+				808E7FB2260F647C00F5525E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808E7FB3260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808E7FB4260F647C00F5525E /* Debug */,
+				808E7FB5260F647C00F5525E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808E7FB6260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808E7FB7260F647C00F5525E /* Debug */,
+				808E7FB8260F647C00F5525E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 808E7F7E260F647800F5525E /* Project object */;
+}
