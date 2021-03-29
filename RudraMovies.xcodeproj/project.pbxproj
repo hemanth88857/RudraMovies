@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AD36F5275E90000EC9BF6D8 /* Pods_RudraMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8D33605E4568D8EC47CD08 /* Pods_RudraMovies.framework */; };
+		34C0832D4BB8755E51C1C11D /* Pods_RudraMovies_RudraMoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2C3710E42B3F925AE27497 /* Pods_RudraMovies_RudraMoviesUITests.framework */; };
+		806EE04626108BFF002AA1C7 /* HomePage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EE04526108BFF002AA1C7 /* HomePage2ViewController.swift */; };
+		806EE04B26108C24002AA1C7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EE04A26108C24002AA1C7 /* MainViewController.swift */; };
+		806EE051261107B6002AA1C7 /* ServiceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EE050261107B5002AA1C7 /* ServiceExtensions.swift */; };
+		806EE05B2611D469002AA1C7 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EE05A2611D468002AA1C7 /* TableViewCell1.swift */; };
+		806EE0602611D47D002AA1C7 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EE05F2611D47D002AA1C7 /* TableViewCell2.swift */; };
+		806EE065261210FA002AA1C7 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EE064261210F9002AA1C7 /* MovieDetails.swift */; };
 		808E7F8A260F647800F5525E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7F89260F647800F5525E /* AppDelegate.swift */; };
 		808E7F8C260F647800F5525E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7F8B260F647800F5525E /* SceneDelegate.swift */; };
-		808E7F8E260F647800F5525E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7F8D260F647800F5525E /* ViewController.swift */; };
 		808E7F91260F647800F5525E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808E7F8F260F647800F5525E /* Main.storyboard */; };
 		808E7F93260F647C00F5525E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808E7F92260F647C00F5525E /* Assets.xcassets */; };
 		808E7F96260F647C00F5525E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808E7F94260F647C00F5525E /* LaunchScreen.storyboard */; };
 		808E7FA1260F647C00F5525E /* RudraMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FA0260F647C00F5525E /* RudraMoviesTests.swift */; };
 		808E7FAC260F647C00F5525E /* RudraMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FAB260F647C00F5525E /* RudraMoviesUITests.swift */; };
+		808E7FC2260F6DF900F5525E /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FC1260F6DF900F5525E /* HomeCollectionViewCell.swift */; };
+		808E7FD8260F788600F5525E /* HomeCollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FD7260F788600F5525E /* HomeCollectionViewCell1.swift */; };
+		808E7FDD260F861D00F5525E /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FDC260F861D00F5525E /* UpComingViewController.swift */; };
+		808E7FE9260F8F3500F5525E /* TopRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FE8260F8F3500F5525E /* TopRatedViewController.swift */; };
+		808E7FF5260FB8E100F5525E /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E7FF4260FB8E100F5525E /* MovieDetailsViewController.swift */; };
+		80FD6C70261245A200B22BB6 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD6C6F261245A100B22BB6 /* HomePage.swift */; };
+		B5FFD9B9E0A39C602E68B8D3 /* Pods_RudraMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74079390BD5300C3228C13 /* Pods_RudraMoviesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1368F904CB9BC87CD10909DA /* Pods-RudraMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudraMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-RudraMoviesTests/Pods-RudraMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A8D33605E4568D8EC47CD08 /* Pods_RudraMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudraMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F471862CE3CB99724EAD55B /* Pods-RudraMovies-RudraMoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudraMovies-RudraMoviesUITests.debug.xcconfig"; path = "Target Support Files/Pods-RudraMovies-RudraMoviesUITests/Pods-RudraMovies-RudraMoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		789FC266CB863DC2EF571362 /* Pods-RudraMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudraMovies.release.xcconfig"; path = "Target Support Files/Pods-RudraMovies/Pods-RudraMovies.release.xcconfig"; sourceTree = "<group>"; };
+		7D2C3710E42B3F925AE27497 /* Pods_RudraMovies_RudraMoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudraMovies_RudraMoviesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		806EE04526108BFF002AA1C7 /* HomePage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage2ViewController.swift; sourceTree = "<group>"; };
+		806EE04A26108C24002AA1C7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		806EE050261107B5002AA1C7 /* ServiceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceExtensions.swift; sourceTree = "<group>"; };
+		806EE05A2611D468002AA1C7 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		806EE05F2611D47D002AA1C7 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		806EE064261210F9002AA1C7 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		808E7F86260F647800F5525E /* RudraMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RudraMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		808E7F89260F647800F5525E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		808E7F8B260F647800F5525E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		808E7F8D260F647800F5525E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		808E7F90260F647800F5525E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		808E7F92260F647C00F5525E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		808E7F95260F647C00F5525E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +73,16 @@
 		808E7FA7260F647C00F5525E /* RudraMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RudraMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808E7FAB260F647C00F5525E /* RudraMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudraMoviesUITests.swift; sourceTree = "<group>"; };
 		808E7FAD260F647C00F5525E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808E7FC1260F6DF900F5525E /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		808E7FD7260F788600F5525E /* HomeCollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell1.swift; sourceTree = "<group>"; };
+		808E7FDC260F861D00F5525E /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		808E7FE8260F8F3500F5525E /* TopRatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedViewController.swift; sourceTree = "<group>"; };
+		808E7FF4260FB8E100F5525E /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		80FD6C6F261245A100B22BB6 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		8D807FA01A9397ECC201C324 /* Pods-RudraMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudraMoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-RudraMoviesTests/Pods-RudraMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E48FF47DFAD669DC6A5E77 /* Pods-RudraMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudraMovies.debug.xcconfig"; path = "Target Support Files/Pods-RudraMovies/Pods-RudraMovies.debug.xcconfig"; sourceTree = "<group>"; };
+		ED74079390BD5300C3228C13 /* Pods_RudraMoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudraMoviesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F493477F5EDC1C84A0D8D447 /* Pods-RudraMovies-RudraMoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudraMovies-RudraMoviesUITests.release.xcconfig"; path = "Target Support Files/Pods-RudraMovies-RudraMoviesUITests/Pods-RudraMovies-RudraMoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD36F5275E90000EC9BF6D8 /* Pods_RudraMovies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FFD9B9E0A39C602E68B8D3 /* Pods_RudraMoviesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C0832D4BB8755E51C1C11D /* Pods_RudraMovies_RudraMoviesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +120,8 @@
 				808E7F9F260F647C00F5525E /* RudraMoviesTests */,
 				808E7FAA260F647C00F5525E /* RudraMoviesUITests */,
 				808E7F87260F647800F5525E /* Products */,
+				FE105472EDD87F118E321C46 /* Pods */,
+				D3AE5BE4B19100776C3E8075 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +138,11 @@
 		808E7F88260F647800F5525E /* RudraMovies */ = {
 			isa = PBXGroup;
 			children = (
-				808E7F89260F647800F5525E /* AppDelegate.swift */,
-				808E7F8B260F647800F5525E /* SceneDelegate.swift */,
-				808E7F8D260F647800F5525E /* ViewController.swift */,
-				808E7F8F260F647800F5525E /* Main.storyboard */,
+				808E7FCD260F6E6C00F5525E /* Delegates */,
+				808E7FC6260F6E0800F5525E /* Controllers */,
+				808E7FC8260F6E2500F5525E /* Cells */,
+				808E7FCC260F6E3400F5525E /* UI */,
 				808E7F92260F647C00F5525E /* Assets.xcassets */,
-				808E7F94260F647C00F5525E /* LaunchScreen.storyboard */,
 				808E7F97260F647C00F5525E /* Info.plist */,
 			);
 			path = RudraMovies;
@@ -128,6 +166,73 @@
 			path = RudraMoviesUITests;
 			sourceTree = "<group>";
 		};
+		808E7FC6260F6E0800F5525E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				806EE064261210F9002AA1C7 /* MovieDetails.swift */,
+				806EE04526108BFF002AA1C7 /* HomePage2ViewController.swift */,
+				806EE04A26108C24002AA1C7 /* MainViewController.swift */,
+				808E7FF4260FB8E100F5525E /* MovieDetailsViewController.swift */,
+				808E7FDC260F861D00F5525E /* UpComingViewController.swift */,
+				80FD6C6F261245A100B22BB6 /* HomePage.swift */,
+				808E7FE8260F8F3500F5525E /* TopRatedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		808E7FC8260F6E2500F5525E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				808E7FD7260F788600F5525E /* HomeCollectionViewCell1.swift */,
+				808E7FC1260F6DF900F5525E /* HomeCollectionViewCell.swift */,
+				806EE05A2611D468002AA1C7 /* TableViewCell1.swift */,
+				806EE05F2611D47D002AA1C7 /* TableViewCell2.swift */,
+				806EE050261107B5002AA1C7 /* ServiceExtensions.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		808E7FCC260F6E3400F5525E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				808E7F94260F647C00F5525E /* LaunchScreen.storyboard */,
+				808E7F8F260F647800F5525E /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		808E7FCD260F6E6C00F5525E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				808E7F89260F647800F5525E /* AppDelegate.swift */,
+				808E7F8B260F647800F5525E /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D3AE5BE4B19100776C3E8075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A8D33605E4568D8EC47CD08 /* Pods_RudraMovies.framework */,
+				7D2C3710E42B3F925AE27497 /* Pods_RudraMovies_RudraMoviesUITests.framework */,
+				ED74079390BD5300C3228C13 /* Pods_RudraMoviesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE105472EDD87F118E321C46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E48FF47DFAD669DC6A5E77 /* Pods-RudraMovies.debug.xcconfig */,
+				789FC266CB863DC2EF571362 /* Pods-RudraMovies.release.xcconfig */,
+				1F471862CE3CB99724EAD55B /* Pods-RudraMovies-RudraMoviesUITests.debug.xcconfig */,
+				F493477F5EDC1C84A0D8D447 /* Pods-RudraMovies-RudraMoviesUITests.release.xcconfig */,
+				8D807FA01A9397ECC201C324 /* Pods-RudraMoviesTests.debug.xcconfig */,
+				1368F904CB9BC87CD10909DA /* Pods-RudraMoviesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 808E7FB0260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMovies" */;
 			buildPhases = (
+				DF6B64E6CFA50D1A23BA7BA5 /* [CP] Check Pods Manifest.lock */,
 				808E7F82260F647800F5525E /* Sources */,
 				808E7F83260F647800F5525E /* Frameworks */,
 				808E7F84260F647800F5525E /* Resources */,
+				D6D0B2BE68DF2EBB5D702F44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 808E7FB3260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMoviesTests" */;
 			buildPhases = (
+				1024AAC0BA5977C1C83A099B /* [CP] Check Pods Manifest.lock */,
 				808E7F98260F647C00F5525E /* Sources */,
 				808E7F99260F647C00F5525E /* Frameworks */,
 				808E7F9A260F647C00F5525E /* Resources */,
@@ -170,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 808E7FB6260F647C00F5525E /* Build configuration list for PBXNativeTarget "RudraMoviesUITests" */;
 			buildPhases = (
+				CFFC87FA82D83B2F7615567F /* [CP] Check Pods Manifest.lock */,
 				808E7FA3260F647C00F5525E /* Sources */,
 				808E7FA4260F647C00F5525E /* Frameworks */,
 				808E7FA5260F647C00F5525E /* Resources */,
+				E048CD4056A41F42E6BF6C68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +363,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1024AAC0BA5977C1C83A099B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RudraMoviesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFFC87FA82D83B2F7615567F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RudraMovies-RudraMoviesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D0B2BE68DF2EBB5D702F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudraMovies/Pods-RudraMovies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudraMovies/Pods-RudraMovies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RudraMovies/Pods-RudraMovies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6B64E6CFA50D1A23BA7BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RudraMovies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E048CD4056A41F42E6BF6C68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudraMovies-RudraMoviesUITests/Pods-RudraMovies-RudraMoviesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RudraMovies-RudraMoviesUITests/Pods-RudraMovies-RudraMoviesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RudraMovies-RudraMoviesUITests/Pods-RudraMovies-RudraMoviesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		808E7F82260F647800F5525E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				808E7F8E260F647800F5525E /* ViewController.swift in Sources */,
+				808E7FF5260FB8E100F5525E /* MovieDetailsViewController.swift in Sources */,
+				806EE0602611D47D002AA1C7 /* TableViewCell2.swift in Sources */,
+				808E7FC2260F6DF900F5525E /* HomeCollectionViewCell.swift in Sources */,
+				808E7FE9260F8F3500F5525E /* TopRatedViewController.swift in Sources */,
 				808E7F8A260F647800F5525E /* AppDelegate.swift in Sources */,
+				806EE05B2611D469002AA1C7 /* TableViewCell1.swift in Sources */,
+				806EE04626108BFF002AA1C7 /* HomePage2ViewController.swift in Sources */,
+				806EE065261210FA002AA1C7 /* MovieDetails.swift in Sources */,
 				808E7F8C260F647800F5525E /* SceneDelegate.swift in Sources */,
+				80FD6C70261245A200B22BB6 /* HomePage.swift in Sources */,
+				808E7FDD260F861D00F5525E /* UpComingViewController.swift in Sources */,
+				806EE051261107B6002AA1C7 /* ServiceExtensions.swift in Sources */,
+				808E7FD8260F788600F5525E /* HomeCollectionViewCell1.swift in Sources */,
+				806EE04B26108C24002AA1C7 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +657,7 @@
 		};
 		808E7FB1260F647C00F5525E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E48FF47DFAD669DC6A5E77 /* Pods-RudraMovies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +677,7 @@
 		};
 		808E7FB2260F647C00F5525E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789FC266CB863DC2EF571362 /* Pods-RudraMovies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +697,7 @@
 		};
 		808E7FB4260F647C00F5525E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D807FA01A9397ECC201C324 /* Pods-RudraMoviesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +720,7 @@
 		};
 		808E7FB5260F647C00F5525E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1368F904CB9BC87CD10909DA /* Pods-RudraMoviesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +743,7 @@
 		};
 		808E7FB7260F647C00F5525E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F471862CE3CB99724EAD55B /* Pods-RudraMovies-RudraMoviesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +764,7 @@
 		};
 		808E7FB8260F647C00F5525E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F493477F5EDC1C84A0D8D447 /* Pods-RudraMovies-RudraMoviesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
