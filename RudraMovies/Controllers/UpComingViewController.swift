@@ -343,10 +343,16 @@ extension UpComingViewController : UICollectionViewDelegate,UICollectionViewData
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == pagingCV {
+           // let size = (pagingCV.frame.size.width - 10) / 1
+           // return CGSize(width: size, height: size)
+
             return CGSize(width: self.pagingCV.frame.width-2/5, height: 170)
             
         } else {
-            return CGSize(width: self.upCmgCV.frame.width-3/5, height: 240)
+            let size = (upCmgCV.frame.size.width - 10) / 2
+            return CGSize(width: size, height: 240)
+
+            //return CGSize(width: self.upCmgCV.frame.width-3/5, height: 240)
             
         }
         
@@ -379,23 +385,23 @@ extension UpComingViewController : UICollectionViewDelegate,UICollectionViewData
         } }
     
     
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        if collectionView == pagingCV {
-            return 0
-            
-            
-        } else {
-            return 10
-            
-        }
-    }
-    
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0)
-    }
-    
+//
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//        if collectionView == pagingCV {
+//            return 0
+//
+//
+//        } else {
+//            return 10
+//
+//        }
+//    }
+//
+//
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+//        return UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0)
+//    }
+//
     
     
 }

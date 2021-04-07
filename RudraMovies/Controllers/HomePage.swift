@@ -231,9 +231,15 @@ extension HomePage:UICollectionViewDelegate,UICollectionViewDataSource,UICollect
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == topRatedCV {
-            return CGSize(width: self.topRatedCV.frame.size.width/3, height: 100)
+            let size = (topRatedCV.frame.size.width - 5) / 3
+            return CGSize(width: size, height: 100)
+
+          //  return CGSize(width: self.topRatedCV.frame.size.width/3, height: 100)
         } else {
-            return CGSize(width: self.upCmgCV.frame.size.width/3, height: 100)
+            let size = (upCmgCV.frame.size.width - 5) / 3
+            return CGSize(width: size, height: 100)
+
+           // return CGSize(width: self.upCmgCV.frame.size.width/3, height: 100)
         } }
     
     

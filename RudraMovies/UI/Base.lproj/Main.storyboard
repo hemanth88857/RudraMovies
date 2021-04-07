@@ -408,7 +408,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MNO-0r-JDz">
                                 <rect key="frame" x="12" y="270" width="390" height="592"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g5b-R2-mMF">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g5b-R2-mMF">
                                     <size key="itemSize" width="165" height="184"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -445,17 +445,13 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="165" height="210"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movie" translatesAutoresizingMaskIntoConstraints="NO" id="fFr-mY-SjP">
-                                                            <rect key="frame" x="0.0" y="0.0" width="165" height="188"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="165" id="5GV-Gc-Zhc"/>
-                                                                <constraint firstAttribute="height" constant="188" id="KeD-mu-uG4"/>
-                                                            </constraints>
+                                                            <rect key="frame" x="0.0" y="0.0" width="165" height="192"/>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EG4-ji-BOk">
-                                                            <rect key="frame" x="17.5" y="188" width="130" height="22"/>
+                                                            <rect key="frame" x="17.5" y="192" width="130" height="18"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDB-WW-nd3">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="48" height="22"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="48" height="18"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="2V6-QP-aIJ"/>
                                                                     </constraints>
@@ -464,7 +460,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interested" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKu-x8-gfP">
-                                                                    <rect key="frame" x="53" y="0.0" width="77" height="22"/>
+                                                                    <rect key="frame" x="53" y="0.0" width="77" height="18"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -637,7 +633,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ELl-3O-T1x">
                                 <rect key="frame" x="12" y="262" width="390" height="634"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YSf-84-QXq">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YSf-84-QXq">
                                     <size key="itemSize" width="165" height="230"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -674,23 +670,19 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="165" height="210"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movie" translatesAutoresizingMaskIntoConstraints="NO" id="fcf-gD-rPz">
-                                                            <rect key="frame" x="0.0" y="0.0" width="165" height="188"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="188" id="CK8-Cq-ymT"/>
-                                                                <constraint firstAttribute="width" constant="165" id="m7u-6B-Sep"/>
-                                                            </constraints>
+                                                            <rect key="frame" x="0.0" y="0.0" width="165" height="189.5"/>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="R4h-D9-vvh">
-                                                            <rect key="frame" x="0.0" y="188" width="165" height="22"/>
+                                                            <rect key="frame" x="0.0" y="189.5" width="165" height="20.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYi-Nd-asi">
-                                                                    <rect key="frame" x="0.0" y="1" width="80" height="20.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ET8-eT-VtR">
-                                                                    <rect key="frame" x="85" y="1" width="80" height="20.5"/>
+                                                                    <rect key="frame" x="85" y="0.0" width="80" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
